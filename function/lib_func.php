@@ -148,7 +148,7 @@ function JwriteFile($filepath, $data, $mode = null)
         return false;
     }
 
-    $data = var_export($data, true);
+//  $data = var_export($data, true);
 
 //  $data = "<?php defined('InUk86') or exit('Access Invalid!'); return ".$data.";";
     $mode = $mode == 'append' ? FILE_APPEND : null;
